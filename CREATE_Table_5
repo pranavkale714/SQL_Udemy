@@ -1,0 +1,1 @@
+create table machine(Machinea_Number varchar(10),owner varchar(10));
