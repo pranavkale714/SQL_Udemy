@@ -1,0 +1,2 @@
+-- To list all tables in DB                                                                                                                        
+SHOW TABLES;
