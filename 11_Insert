@@ -1,0 +1,22 @@
+-- Insert query 
+INSERT INTO machine VALUES ('DTP001','Pranav');
+
+-- Added parameter
+INSERT INTO machine (Machinea_Number,owner) VALUES ('DTP002','PranavK');
+
+-- Changing Sequence of parameter
+INSERT INTO machine (OWNER,Machinea_Number) VALUES ('DTP003','PranavK');
+
+-- Specific Parameter
+INSERT INTO machine (Machinea_Number) VALUES ('DTP004');
+
+-- Insert NULL Values
+INSERT INTO machine VALUES (NULL, NULL);
+
+-- Inserting Multiple Data at single time
+INSERT INTO machine (Machinea_Number,owner) VALUES ('DTP005','PRANAV'),('DTP006','PRANAV');                                                                                                                                     
+
+-- Inserting NULL Values
+INSERT INTO machine () VALUES ();                                                                                                            
+                                                                                                                                                                    -- Inserting NULL Values
+INSERT INTO machine (OWNER,Machinea_Number) VALUES (NULL,NULL);
