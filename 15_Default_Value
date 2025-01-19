@@ -1,0 +1,13 @@
+-- Default value inserted into the column if no other value is specified when a new record is created                        
+CREATE TABLE machine  (    
+        name VARCHAR(20) DEFAULT 'no name provided',    
+        age INT DEFAULT 99  
+    );
+    
+    DESC machine;
+
+    INSERT INTO machine(age) VALUES(13);
+    
+    INSERT INTO machine() VALUES();
+    
+    SELECT * FROM machine;
