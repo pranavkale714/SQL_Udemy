@@ -1,0 +1,19 @@
+-- A table can only take one primary key
+-- A primary key column cannot accept null values
+-- Primary Key will be always be unique
+
+
+ CREATE TABLE machine4 (
+    	machine_id INT PRIMARY KEY,
+        name VARCHAR(100) NOT NULL,
+        age INT NOT NULL
+    );
+
+-- Another Option to set primary                                                                                                                            
+  CREATE TABLE machine5 (
+    	machine_id INT,
+        name VARCHAR(100) NOT NULL,
+        age INT NOT NULL,
+        PRIMARY KEY (machine_id)
+    );
+    
