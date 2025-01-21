@@ -1,1 +1,8 @@
+ CREATE TABLE machine (
+        id INT AUTO_INCREMENT,
+        name VARCHAR(100) NOT NULL,
+        age INT NOT NULL,
+        PRIMARY KEY ( id )
 
+    );
+INSERT INTO machine (NAME,age) VALUES ('pranav',20);
