@@ -1,0 +1,2 @@
+SELECT * FROM machine WHERE age = 4;
+SELECT * FROM machine WHERE name ='pranav'; 
