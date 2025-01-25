@@ -1,0 +1,2 @@
+-- To delete specific or all rows from Table                                                                                                             DELETE FROM machine WHERE name='PRANAV';
+DELETE FROM machine;
