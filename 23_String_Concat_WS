@@ -1,0 +1,9 @@
+-- Syntax
+-- CONCAT_WS(separator, string1, string2, ..., string_n);
+
+-- Concatenating Strings with a CONCAT_With_Seperator
+SELECT CONCAT_WS('-','Pranak','Dilip','kale'); 
+-- Return Pranav-Dilip-kale
+
+-- Concatenating Columns
+SELECT CONCAT_WS(' ', first_name, middle_name, last_name) AS full_name FROM pranav;
