@@ -1,0 +1,15 @@
+SELECT REPLACE('Hello World', 'Hell', '%$#@');
+     
+SELECT REPLACE('Hello World', 'l', '7');
+     
+SELECT REPLACE('Hello World', 'o', '0');
+     
+SELECT REPLACE('HellO World', 'o', '*');
+     
+SELECT REPLACE('cheese bread coffee milk', ' ', ' and ');
+     
+SELECT REPLACE(article, 'e', '3') FROM shirts;
+     
+SELECT REPLACE(article, ' ', '-') FROM shirts;
+    
+UPDATE shirts SET article=REPLACE(article, 'polo', 'round neck');
