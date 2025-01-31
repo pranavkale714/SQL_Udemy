@@ -1,0 +1,9 @@
+SELECT REVERSE('Hello World');
+     
+SELECT REVERSE('meow meow');
+     
+SELECT REVERSE(article) FROM shirts;
+     
+SELECT CONCAT('woof', REVERSE('woof'));
+     
+SELECT CONCAT(fname, REVERSE(fname)) FROM shirts;
