@@ -1,0 +1,3 @@
+    SELECT CHAR_LENGTH('Hello World');
+     
+    SELECT CHAR_LENGTH(article) as length FROM shirts;
