@@ -1,0 +1,5 @@
+SELECT UPPER('Hello World');   
+ 
+-- UCASE() is a synonym for UPPER().
+
+SELECT UCASE('Hello World');   
