@@ -1,0 +1,4 @@
+    SELECT INSERT('Hello Bobby', 6, 0, 'There'); 
+    SELECT INSERT('Hello Bobby', 6, 2, 'There'); 
+    SELECT INSERT('Hello Bobby', 6, -1, 'There'); 
+    
