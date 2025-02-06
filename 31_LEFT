@@ -1,0 +1,3 @@
+SELECT LEFT('omghahalol!', 6);
+SELECT LEFT('omghahalol!', -1);
+SELECT LEFT('omghahalol!', 2);
