@@ -1,0 +1,4 @@
+   SELECT RIGHT('omghahalol!', 6);
+   SELECT RIGHT('omghahalol!', -1);
+   SELECT RIGHT('omghahalol!', 0);
+   SELECT RIGHT('omghahalol!', 2);
