@@ -1,0 +1,9 @@
+SELECT TRIM('  bar   ');
+      
+SELECT TRIM(LEADING 'x' FROM 'xxxbarxxx');
+
+SELECT TRIM(BOTH 'x' FROM 'xxxbarxxx');
+SELECT TRIM(BOTH 'xx' FROM 'xxxbarxxx');
+SELECT TRIM(BOTH 'xx' FROM 'xxxxbarxxxx');
+
+SELECT TRIM(TRAILING 'xyz' FROM 'barxxyz');
