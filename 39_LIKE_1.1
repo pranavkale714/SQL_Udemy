@@ -1,0 +1,38 @@
+    -- author_fname conians "da" in it
+	 SELECT title, author_fname, author_lname, pages 
+    FROM books
+    WHERE author_fname LIKE '%da%';
+     
+    -- title contian ":" in it
+    SELECT title, author_fname, author_lname, pages 
+    FROM books
+    WHERE title LIKE '%:%';
+     
+    -- author_fname contian 4 letter in it (depends on number of "_"
+    SELECT * FROM books
+    WHERE author_fname LIKE '____';
+     
+    -- author_fanme contain 3 letter and a in the middle
+    SELECT * FROM books
+    WHERE author_fname LIKE '_a_';
+    
+    -- author_fanme starts with a
+    SELECT * FROM books
+    WHERE author_fname LIKE 'a%';
+    
+    -- author_fanme Ends with a
+    SELECT * FROM books
+    WHERE author_fname LIKE '%a';
+    
+    -- author_fanme Start with a and Ends with g
+    SELECT * FROM books
+    WHERE author_fname LIKE 'a%g';
+    
+    -- Match strings that start with ‘a and contain at least 2 more characters.
+     SELECT * FROM books
+    WHERE author_fname LIKE ‘a %’;
+    
+    
+    
+    
+    
