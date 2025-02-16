@@ -1,0 +1,9 @@
+-- See Result
+SELECT author_lname, COUNT(*) FROM books;
+
+-- statement groups rows that have the same values into summary rows    
+SELECT author_lname, COUNT(*) FROM books GROUP BY author_lname;
+     
+SELECT author_lname, COUNT(*) AS books_writtenFROM books
+GROUP BY author_lname
+ORDER BY books_written DESC;
