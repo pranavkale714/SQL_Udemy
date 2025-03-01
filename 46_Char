@@ -1,0 +1,5 @@
+CREATE TABLE example_char (
+id INT,
+name CHAR(50)
+);
+INSERT INTO example_char (id, name) VALUES (1, 'John Doe');
