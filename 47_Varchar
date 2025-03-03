@@ -1,0 +1,5 @@
+CREATE TABLE example_varchar (
+id INT,
+description VARCHAR(255)
+);
+INSERT INTO example_varchar (id, description) VALUES (1, 'This is a variable length string.');
