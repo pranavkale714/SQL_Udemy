@@ -1,0 +1,2 @@
+Varchar(10)-it will consume storage on the basis number of input charcter                                                                                                                                       
+char(10)- it will always take 10byte(Size Provided to it)
