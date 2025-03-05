@@ -1,0 +1,15 @@
+-- Can Store Value Between -127 to 128                                                                                                                                                       
+ CREATE TABLE example_Tinyint (
+id TINYINT,
+quantity TINYINT
+);
+
+INSERT INTO example_int (id, quantity) VALUES (1, 100);
+
+-- Can store Value Between 0 to 255
+CREATE TABLE example_unsigned_smallint (
+    id SMALLINT UNSIGNED,
+    quantity SMALLINT UNSIGNED
+);
+
+INSERT INTO example_int (id, quantity) VALUES (1, 100);
