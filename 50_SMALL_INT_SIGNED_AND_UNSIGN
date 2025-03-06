@@ -1,0 +1,15 @@
+-- Can store Value Between -32,768 to 32,767
+CREATE TABLE example_smallint (
+    id SMALLINT, -- range: -32,768 to 32,767
+    quantity SMALLINT -- range: -32,768 to 32,767
+);
+
+INSERT INTO example_smallint (id, quantity) VALUES (1, 100);
+
+-- Can store Value Between 0 to 65,535
+CREATE TABLE example_unsigned_smallint (
+    id SMALLINT UNSIGNED, -- range: 0 to 65,535
+    quantity SMALLINT UNSIGNED -- range: 0 to 65,535
+);
+
+INSERT INTO example_unsigned_smallint (id, quantity) VALUES (1, 100);
