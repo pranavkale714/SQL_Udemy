@@ -1,0 +1,15 @@
+-- Can store Value Between -2,147,483,648 to 2,147,483,647
+CREATE TABLE example_int (
+    id INT, -- range: -2,147,483,648 to 2,147,483,647
+    quantity INT -- range: -2,147,483,648 to 2,147,483,647
+);
+
+INSERT INTO example_int (id, quantity) VALUES (1, 100);
+
+-- Can store Value Between 0 to 4,294,967,295
+CREATE TABLE example_unsigned_int (
+    id INT UNSIGNED, -- range: 0 to 4,294,967,295
+    quantity INT UNSIGNED -- range: 0 to 4,294,967,295
+);
+
+INSERT INTO example_unsigned_int (id, quantity) VALUES (1, 100);
