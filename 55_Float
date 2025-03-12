@@ -1,0 +1,5 @@
+CREATE TABLE example_float (
+id INT,
+price FLOAT(7, 2)
+);
+INSERT INTO example_float (id, price) VALUES (1, 123.45);
