@@ -1,0 +1,5 @@
+CREATE TABLE example_double (
+id INT,
+distance DOUBLE(10, 2)
+);
+INSERT INTO example_double (id, distance) VALUES (1, 12345.67);
