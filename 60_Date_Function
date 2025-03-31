@@ -1,4 +1,4 @@
-    SELECT 
+    SELECT
         birthdate,
         DAY(birthdate),
         DAYOFWEEK(birthdate),
