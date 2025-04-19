@@ -1,0 +1,15 @@
+   SELECT DATEDIFF(CURDATE(),birthdate) from people;
+   
+   SELECT DATE_ADD('2000-12-10',INTERVAL 1 DAY) from people;
+      
+   SELECT DATE_ADD('2000-12-10',INTERVAL 1 YEAR) from people;
+      
+   SELECT DATE_ADD('2000-12-10 23:59:59',INTERVAL 1 SECOND) from people;
+      
+   SELECT DATE_ADD('2000-12-10 ',INTERVAL 1 DAY) from people;
+   
+   SELECT TIMEDIFF(CURTIME(),'7:00:00');
+   
+   SELECT birthdate,birthdate + INTERVAL 1 YEAR FROM people;
+   
+   SELECT NOW()-INTERVAL 25 YEAR;
