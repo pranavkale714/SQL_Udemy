@@ -1,0 +1,29 @@
+    CREATE TABLE captions (
+      text VARCHAR(150),
+      created_at TIMESTAMP default CURRENT_TIMESTAMP
+    );
+     
+    CREATE TABLE captions2 (
+      text VARCHAR(150),
+      created_at TIMESTAMP default CURRENT_TIMESTAMP,
+      updated_at TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+    );
+    
+    
+    -- Check Default Values of timestamp 
+    
+    INSERT INTO captions (TEXT) VALUES ('hey hi');
+     SELECT * FROM  captions;
+     
+    INSERT INTO captions2 (TEXT) VALUES ('hey hi');
+    SELECT * FROM  captions2;
+    
+    UPDATE captions2 SET TEXT='Bye';
+    SELECT * FROM  captions2;
+    
+    -- What's the difference between DATETIME and TIMESTAMP?
+ 
+-- They both store datetime information, but there's a difference in the range, 
+-- TIMESTAMP has a smaller range. TIMESTAMP also takes up less space. 
+-- TIMESTAMP is used for things like meta-data about when something is created
+-- or updated.
