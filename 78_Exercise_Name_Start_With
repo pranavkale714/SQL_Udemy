@@ -1,0 +1,8 @@
+-- Solution 1       
+SELECT title, author_lname FROM books
+WHERE author_lname LIKE 'C%'
+OR author_lname LIKE 'S%';
+
+-- Solution 2
+SELECT title, author_lname
+FROM books WHERE SUBSTR(author_lname, 1, 1) in ('C', 'S');
