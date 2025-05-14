@@ -1,0 +1,14 @@
+ALTER TABLE companies MODIFY company_name VARCHAR(100) DEFAULT 'unknown'; 
+-- Used when keep its "Column name" intact(As It is) 
+-- used to change 
+-- 1.data type, 
+-- 2.size, or 
+-- 3.default value 
+
+
+ALTER TABLE suppliers CHANGE business biz_name VARCHAR(50); 
+-- Used when keep its "defualt value" intact(As It is) 
+-- Used to change
+-- 1.Column name
+-- 2.size 
+-- 3.data type
