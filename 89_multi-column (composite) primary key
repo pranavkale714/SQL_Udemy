@@ -1,0 +1,1 @@
+CREATE TABLE Enrollment (StudentID INT,CourseID INT,EnrollmentDate DATE,PRIMARY KEY (StudentID, CourseID) );
