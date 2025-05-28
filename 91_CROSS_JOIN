@@ -1,4 +1,0 @@
--- Also Known as Cartersian Join                                                                                                                                 
--- Customer has 5 rows AND orders has 5 rows                                                                                                 
--- Result= 25 Rows      
-SELECT * FROM customers CROSS JOIN orders;
