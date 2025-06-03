@@ -1,0 +1,5 @@
+-- CROSS JOIN-Creates a combination of every row in the first table with every row in the second table. 
+SELECT Employees.Name, Departments.DeptName FROM Employees CROSS JOIN Departments;
+
+-- Includes all rows from both tables, with NULL in columns where no match is found. 
+SELECT Employees.ID, Employees.Name, Departments.DeptID, Departments.DeptName FROM Employees FULL JOIN Departments ON Employees.ID = Departments.DeptID;
