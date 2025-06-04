@@ -1,0 +1,3 @@
+SELECT * FROM orders JOIN customers ON customers.id = orders.customer_id;    
+
+SELECT * from orders INNER JOIN customers ON customers.id = orders.customer_id;
