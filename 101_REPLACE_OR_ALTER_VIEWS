@@ -1,0 +1,10 @@
+CREATE VIEW ordered_series AS     
+SELECT * FROM series ORDER BY released_year;       	
+
+-- Solution 1     
+CREATE OR REPLACE VIEW ordered_series AS SELECT * FROM series ORDER BY released_year DESC;          
+
+-- Solution 2	     
+ALTER VIEW ordered_series AS SELECT * FROM series ORDER BY released_year;           
+
+DROP VIEW ordered_series;
