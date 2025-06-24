@@ -1,0 +1,11 @@
+-- They are rule to be defined like "NO_ZERO_IN_DATE",ERROR_FOR_DIVISION_BY_ZERO" and etc.        
+
+-- To View Modes:     
+SELECT @@GLOBAL.sql_mode; 	
+
+-- Modes set for current session     
+SELECT @@SESSION.sql_mode;  
+
+-- To Set Them:     
+SET GLOBAL sql_mode = 'modes';     
+SET SESSION sql_mode = 'modes';
