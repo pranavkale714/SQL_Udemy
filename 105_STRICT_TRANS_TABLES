@@ -1,0 +1,5 @@
+/* 
+-- Strict mode controls how MySQL handles invalid or missing values in data-change statements such as INSERT or UPDATE. 
+-- A value can be invalid for several reasons. For example, it might have the wrong data type for the COLUMN, or it might be out of RANGE. 
+-- A value is missing when a new row to be inserted does not contain a value for a non-NULL column that has no explicit DEFAULT clause in its definition. 
+*/
