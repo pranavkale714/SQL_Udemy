@@ -1,0 +1,4 @@
+SELECT emp_no,department,salary,
+RANK() OVER(PARTITION BY department ORDER BY SALARY DESC) as dept_salary_rank,
+RANK() OVER(ORDER BY salary DESC) as overall_rank
+FROM employees ORDER BY overall_rank;
