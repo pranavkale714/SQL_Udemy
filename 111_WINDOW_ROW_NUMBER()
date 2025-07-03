@@ -1,0 +1,6 @@
+SELECT 
+emp_no, 
+department, 
+salary,
+ROW_NUMBER() OVER(PARTITION BY department ORDER BY SALARY DESC) as dept_row_number
+FROM employees;
