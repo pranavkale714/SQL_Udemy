@@ -1,0 +1,1 @@
+SELECT emp_no,department,salary,salary - LAG(salary) OVER(ORDER BY salary DESC) FROM employees;
